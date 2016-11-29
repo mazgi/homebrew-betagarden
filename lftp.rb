@@ -1,10 +1,8 @@
 class Lftp < Formula
   desc "Sophisticated file transfer program"
   homepage "https://lftp.yar.ru/"
-  # Can't get 4.7.x to build on OS X/macOS. Pull requests welcome!
-  # https://github.com/Homebrew/homebrew-core/pull/1509
-  url "https://lftp.yar.ru/ftp/lftp-4.6.6.tar.xz"
-  sha256 "d6215e9bff744f29383fb11c61262b7545b2b5a551e1011e85f428669506d05c"
+  url "https://lftp.yar.ru/ftp/lftp-4.7.4.tar.xz"
+  sha256 "bf67c4d128b6f769a4082947376a9679c5ee3463a24ab761a0757f75d70bd92c"
 
   depends_on "pkg-config" => :build
   depends_on "readline"
